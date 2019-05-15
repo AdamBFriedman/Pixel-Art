@@ -1,4 +1,12 @@
 :root {
+    --scroogeBlue: #4665FF;
+    --scroogeTeal: #6BF9EB;
+    --scroogeOrange: #FB9939;
+    --scroogeRed: #FA0605;
+    --scroogeYellow: #DDF21C;
+    --scroogeBrown: #92380A;
+    --pokeBallRed: #FD0100;
+    --pokeBallGrey: #B7B7B7;
     --mushroomRed: #EA0606;
     --marioRed: #FE0002;
     --ghostRed: #D73726;
@@ -25,11 +33,7 @@ body {
 }
 
 .mb {
-    margin-bottom: 1em;
-}
-
-. div {
-    border: 1px solid #000;
+    margin: 1em;
 }
 
 .wrapper {
@@ -39,8 +43,68 @@ body {
 .wrapper div {
     width: 25px;
     height: 25px;
-    border-radius: 50%;
+    border-radius: 0;
+    /*border: 1px solid #000;*/
 
+}
+
+.mario div, .ghost div, .flower div, .mushroom div, .pokeball div, .scrooge div {
+    width: 4px;
+    height: 4px;
+}
+
+.scrooge div {
+    height: 20px;
+    width: 20px;
+    border-radius: 0;
+}
+
+.scroogeWrapper {
+    background-color: var(--ghostGrey);
+    display: inline-flex;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    flex-direction: row;
+    margin: 6em 0;
+}
+
+.scrooge {
+    display: inline-table;
+}
+
+.scroogeBlue {
+    background-color: var(--scroogeBlue);
+}
+
+.scroogeOrange {
+    background-color: var(--scroogeOrange);
+}
+
+.scroogeRed {
+    background-color: var(--scroogeRed);
+}
+
+.scroogeTeal {
+    background-color: var(--scroogeTeal);
+}
+
+.scroogeYellow {
+    background-color: var(--scroogeYellow);
+}
+
+.scroogeBrown {
+    background-color: var(--scroogeBrown);
+}
+
+.pokeBallRed {
+    background-color: var(--pokeBallRed);
+}
+
+.pokeBallGrey {
+    background-color: var(--pokeBallGrey);
 }
 
 .mushroomRed {
