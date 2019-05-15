@@ -1,0 +1,100 @@
+:root {
+    --mushroomRed: #EA0606;
+    --marioRed: #FE0002;
+    --ghostRed: #D73726;
+    --ghostGrey: #B4B4B4;
+    --flowerOrange: #EB8131;
+    --flowerRed: #E13530;
+    --flowerDarkGreen: #49B450;
+    --flowerLightGreen: #B5E34D;
+    --beige: #FFD987;
+    --brown: #6A0400;
+    --blue: #0001FC;
+    --yellow: #FEFA5C;
+    --white: #fff;
+    --black: #000;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.mb {
+    margin-bottom: 1em;
+}
+
+. div {
+    border: 1px solid #000;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper div {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+
+.mushroomRed {
+    background-color: var(--mushroomRed);
+}
+
+.flowerOrange {
+    background-color: var(--flowerOrange);
+}
+
+.flowerRed {
+    background-color: var(--flowerRed);
+}
+
+.flowerLightGreen {
+    background-color: var(--flowerLightGreen);
+}
+
+.flowerDarkGreen {
+    background-color: var(--flowerDarkGreen);
+}
+
+.white {
+    background-color: var(--white);
+}
+
+.black {
+    background-color: var(--black);
+}
+
+.marioRed {
+    background-color: var(--marioRed);
+}
+
+.ghostRed {
+    background-color: var(--ghostRed);
+}
+
+.ghostGrey {
+    background-color: var(--ghostGrey);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.beige {
+    background-color: var(--beige);
+}
+
+.brown {
+    background-color: var(--brown);
+}
+
+.yellow {
+    background-color: var(--yellow);
+}
