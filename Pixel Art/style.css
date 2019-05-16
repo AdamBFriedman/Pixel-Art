@@ -1,6 +1,13 @@
 
 
 :root {
+    --ryuRed: #FA0401;
+    --ryuBeige: #D7BB7D;
+    --zazuBlue: #86C1ED;
+    --zazuBeige: #E3BC80;
+    --zazuRed: #EF0A01;
+    --zazuOrange: #FC941E;
+    --zazuYellow: #FDEE08;
     --ninjaTurtleGreen: #4C9C23;
     --ninjaTurtlePurple: #995AA0;
     --ninjaTurtleRed: #E3331C;
@@ -74,14 +81,15 @@ body {
 .pokeball div, .scrooge div, .gameboy div, .goomba div, 
 .pacmanGhost div, .pluto div, .batman div, .nesController div, 
 .marioGhost div, .waldo div, .triforce div, .banana div,
-.donatello div, .michelangelo div, .leonardo div, .raphael div {
+.donatello div, .michelangelo div, .leonardo div, .raphael div,
+.zazu div, .ryu div {
     width: 4px;
     height: 4px;
 }
 
-.g div {
-    height: 10px;
-    width: 10px;
+.r div {
+    height: 15px;
+    width: 15px;
 }
 
 
@@ -90,9 +98,33 @@ body {
 
 
 
+.ryuRed {
+    background-color: var(--ryuRed);
+}
 
+.ryuBeige {
+    background-color: var(--ryuBeige);
+}
 
+.zazuBlue {
+    background-color: var(--zazuBlue);
+}
 
+.zazuBeige {
+    background-color: var(--zazuBeige);
+}
+
+.zazuRed {
+    background-color: var(--zazuRed);
+}
+
+.zazuOrange {
+    background-color: var(--zazuOrange);
+}
+
+.zazuYellow {
+    background-color: var(--zazuYellow);
+}
 
 .ninjaTurtleGreen {
     background-color: var(--ninjaTurtleGreen);
