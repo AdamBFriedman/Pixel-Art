@@ -1,4 +1,10 @@
 :root {
+    --triforceYellow: #E7E725;
+    --waldoRed: #D90300;
+    --waldoBeige: #E3C07E;
+    --marioGhostBlue: #8DC5E9;
+    --nesControllerGrey: #B6B1B4;
+    --nesControllerRed: #FC0106;
     --plutoYellow: #E2E522;
     --plutoRed: #EE0704;
     --pacmanGhostBlue: #004B92;
@@ -22,7 +28,7 @@
     --flowerRed: #E13530;
     --flowerDarkGreen: #49B450;
     --flowerLightGreen: #B5E34D;
-    --beige: #FFD987;
+    --marioBeige: #FFD987;
     --brown: #6A0400;
     --blue: #0001FC;
     --yellow: #FEFA5C;
@@ -50,25 +56,53 @@ body {
 }
 
 .wrapper div {
-    /*border: 1px solid #000;*/
+    border: 1px solid #000;*/
     width: 4px;
     height: 4px;
 }
 
-.p div{
-    height: 25px;
-    width: 25px;
-}
-
-.mario div, .ghost div, .flower div, .mushroom div, .pokeball div, .scrooge div {
+.mario div, .ghost div, .flower div, .mushroom div, 
+.pokeball div, .scrooge div, .gameboy div, .goomba div, 
+.pacmanGhost div, .pluto div, .batman div, .nesController div, 
+.marioGhost div, .waldo div, .triforce div {
     width: 4px;
     height: 4px;
 }
 
-.scrooge div {
-    height: 4px;
-    width: 4px;
-    border-radius: 0;
+.t div {
+    height: 10px;
+    width: 10px;
+}
+
+
+
+
+
+
+
+
+.triforceYellow {
+    background-color: var(--triforceYellow);
+}
+
+.waldoRed {
+    background-color: var(--waldoRed);
+}
+
+.waldoBeige {
+    background-color: var(--waldoBeige);
+}
+
+.marioGhostBlue {
+    background-color: var(--marioGhostBlue);
+}
+
+.nesControllerGrey {
+    background-color: var(--nesControllerGrey);
+}
+
+.nesControllerRed {
+    background-color: var(--nesControllerRed);
 }
 
 .plutoYellow {
@@ -175,8 +209,8 @@ body {
     background-color: var(--blue);
 }
 
-.beige {
-    background-color: var(--beige);
+.marioBeige {
+    background-color: var(--marioBeige);
 }
 
 .brown {
