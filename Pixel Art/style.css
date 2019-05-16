@@ -1,6 +1,18 @@
 
 
 :root {
+    --thorSkin: #FACD8E;
+    --thorHammerBrown: #945620;
+    --thorHammerGrey: #808080;
+    --thorHelmetGrey: #5D7E8D;
+    --thorYellow: #FFEA3E;
+    --thorRed: #ED422E;
+    --thorBlue: #0101F7;
+    --thorLightBlue: #0AB7DE;
+    --garfieldBrown: #663000;
+    --garfieldOrange: #FD9621;
+    --garfieldYellow: #EBF116;
+    --garfieldPink: #E7BFCA;
     --ryuRed: #FA0401;
     --ryuBeige: #D7BB7D;
     --zazuBlue: #86C1ED;
@@ -82,21 +94,60 @@ body {
 .pacmanGhost div, .pluto div, .batman div, .nesController div, 
 .marioGhost div, .waldo div, .triforce div, .banana div,
 .donatello div, .michelangelo div, .leonardo div, .raphael div,
-.zazu div, .ryu div {
+.zazu div, .ryu div, .punisher div, .garfield div, .thor div {
     width: 4px;
     height: 4px;
 }
 
-.r div {
+.t div {
     height: 15px;
     width: 15px;
 }
 
+.thorSkin {
+    background-color: var(--thorSkin);
+}
 
+.thorHammerBrown {
+    background-color: var(--thorHammerBrown);
+}
 
+.thorHammerGrey {
+    background-color: var(--thorHammerGrey);
+}
+.thorHelmetGrey {
+    background-color: var(--thorHelmetGrey);
+}
+.thorYellow {
+    background-color: var(--thorYellow);
+}
+.thorBlue {
+    background-color: var(--thorBlue);
+}
 
+.thorLightBlue {
+    background-color: var(--thorLightBlue);
+}
 
+.thorRed {
+    background-color: var(--thorRed);
+}
 
+.garfieldBrown {
+    background-color: var(--garfieldBrown);
+}
+
+.garfieldOrange {
+    background-color: var(--garfieldOrange);
+}
+
+.garfieldYellow {
+    background-color: var(--garfieldYellow);
+}
+
+.garfieldPink {
+    background-color: var(--garfieldPink);
+}
 
 .ryuRed {
     background-color: var(--ryuRed);
