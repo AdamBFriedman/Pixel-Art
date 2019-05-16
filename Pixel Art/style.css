@@ -1,4 +1,8 @@
 :root {
+    --plutoYellow: #E2E522;
+    --plutoRed: #EE0704;
+    --pacmanGhostBlue: #004B92;
+    --pacmanGhostRed: #DA0102;
     --goombaBrown: #582A01;
     --goombaLightBrown: #D0B77E;
     --gameboyRed: #D80000;
@@ -51,7 +55,7 @@ body {
     height: 4px;
 }
 
-.g div{
+.p div{
     height: 25px;
     width: 25px;
 }
@@ -65,6 +69,22 @@ body {
     height: 4px;
     width: 4px;
     border-radius: 0;
+}
+
+.plutoYellow {
+    background-color: var(--plutoYellow);
+}
+
+.plutoRed {
+    background-color: var(--plutoRed);
+}
+
+.pacmanGhostBlue {
+    background-color: var(--pacmanGhostBlue);
+}
+
+.pacmanGhostRed {
+    background-color: var(--pacmanGhostRed);
 }
 
 .goombaBrown {
