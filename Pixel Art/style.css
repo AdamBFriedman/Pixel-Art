@@ -1,4 +1,12 @@
+
+
 :root {
+    --ninjaTurtleGreen: #4C9C23;
+    --ninjaTurtlePurple: #995AA0;
+    --ninjaTurtleRed: #E3331C;
+    --ninjaTurtleOrange: #EA9500;
+    --ninjaTurtleBlue: #00AAE6;
+    --bananaYellow: #F1F00F;
     --triforceYellow: #E7E725;
     --waldoRed: #D90300;
     --waldoBeige: #E3C07E;
@@ -44,6 +52,7 @@
 body {
     background-color: var(--white);
     display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .mb {
@@ -56,7 +65,7 @@ body {
 }
 
 .wrapper div {
-    border: 1px solid #000;*/
+    /*border: 1px solid #000;*/
     width: 4px;
     height: 4px;
 }
@@ -64,12 +73,13 @@ body {
 .mario div, .ghost div, .flower div, .mushroom div, 
 .pokeball div, .scrooge div, .gameboy div, .goomba div, 
 .pacmanGhost div, .pluto div, .batman div, .nesController div, 
-.marioGhost div, .waldo div, .triforce div {
+.marioGhost div, .waldo div, .triforce div, .banana div,
+.donatello div, .michelangelo div, .leonardo div, .raphael div {
     width: 4px;
     height: 4px;
 }
 
-.t div {
+.g div {
     height: 10px;
     width: 10px;
 }
@@ -80,6 +90,37 @@ body {
 
 
 
+
+
+
+
+.ninjaTurtleGreen {
+    background-color: var(--ninjaTurtleGreen);
+}
+
+.ninjaTurtlePurple {
+    background-color: var(--ninjaTurtlePurple);
+}
+
+.ninjaTurtleRed {
+    background-color: var(--ninjaTurtleRed);
+}
+
+.ninjaTurtleOrange {
+    background-color: var(--ninjaTurtleOrange);
+}
+
+.ninjaTurtleBlue {
+    background-color: var(--ninjaTurtleBlue);
+}
+
+.bananaYellow {
+    background-color: var(--bananaYellow);
+}
+
+.bananaYellow {
+    background-color: var(--bananaYellow);
+}
 
 .triforceYellow {
     background-color: var(--triforceYellow);
