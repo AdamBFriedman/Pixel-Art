@@ -1,6 +1,23 @@
 
 
 :root {
+    --georgeEyes: #452416;
+    --georgeHair: #573417;
+    --georgeShoes: #492211;
+    --georgeSkin: #EDC7A1;
+    --georgeSkin2: #DA956B;
+    --georgeBeltBuckle: #F2C23A;
+    --georgeDarkGreen: #182E14;
+    --georgeLightGreen: #18481E;
+    --georgeShirtYellow: #FEDB3E;
+    --georgeShirtGrey: #6A6154;
+    --georgePants: #6C615F;
+    --georgePantsOutline: #413332;
+    --adventureTime: #DEBA7B;
+    --grumpyCatOrange: #E28C4B;
+    --grumpyCatFur: #EDDCC9;
+    --grumpyCatBlue: #B0C8CE;
+    --grumpyCatPink: #DE8F95;
     --deadpoolRed: #F9080F;
     --deadpoolDarkGrey: #48474C;
     --deadpoolLightGrey: #6F6A6E;
@@ -114,14 +131,15 @@ body {
 .marioGhost div, .waldo div, .triforce div, .banana div,
 .donatello div, .michelangelo div, .leonardo div, .raphael div,
 .zazu div, .ryu div, .punisher div, .garfield div, .thor div,
-.potLeaf div, .autobot div, .rick div, .goku div, .deadpool div {
+.potLeaf div, .autobot div, .rick div, .goku div, .deadpool div,
+.grumpyCat div, .adventureTime div, .george div {
     width: 4px;
     height: 4px;
 }
 
-.d div {
-    height: 15px;
-    width: 15px;
+.g div {
+    height: 10px;
+    width: 10px;
 }
 
 
@@ -133,11 +151,74 @@ body {
 
 
 
+.georgeEyes {
+    background-color: var(--georgeEyes);
+}
+
+.georgeHair {
+    background-color: var(--georgeHair);
+}
+
+.georgeShoes {
+    background-color: var(--georgeShoes);
+}
+
+.georgeSkin {
+    background-color: var(--georgeSkin);
+}
+
+.georgeSkin2 {
+    background-color: var(--georgeSkin2);
+}
+
+.georgeBeltBuckle {
+    background-color: var(--georgeBeltBuckle);
+}
+
+.georgeDarkGreen {
+    background-color: var(--georgeDarkGreen);
+}
+
+.georgeLightGreen {
+    background-color: var(--georgeLightGreen);
+}
+
+.georgeShirtGrey {
+    background-color: var(--georgeShirtGrey);
+}
+
+.georgeShirtYellow {
+    background-color: var(--georgeShirtYellow);
+}
+
+.georgePants {
+    background-color: var(--georgePants);
+}
+
+.georgePantsOutline {
+    background-color: var(--georgePantsOutline);
+}
 
 
+.adventureTime {
+    background-color: var(--adventureTime);
+}
 
+.grumpyCatOrange {
+    background-color: var(--grumpyCatOrange);
+}
 
+.grumpyCatBlue {
+    background-color: var(--grumpyCatBlue);
+}
 
+.grumpyCatFur {
+    background-color: var(--grumpyCatFur);
+}
+
+.grumpyCatPink {
+    background-color: var(--grumpyCatPink);
+}
 
 .deadpoolRed {
     background-color: var(--deadpoolRed);
