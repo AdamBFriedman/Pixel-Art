@@ -1,6 +1,14 @@
 
 
 :root {
+    --freddyBrown: #5B2B02;
+    --freddyOrange: #FF951F;
+    --freddySkin: #DABD70;
+    --freddyGreen: #00A103;
+    --freddyRed: #FE0100;
+    --freddyGrey: #636363;
+    --creeper: #53FE08;
+    --smurf: #074B8A;
     --georgeEyes: #452416;
     --georgeHair: #573417;
     --georgeShoes: #492211;
@@ -132,12 +140,13 @@ body {
 .donatello div, .michelangelo div, .leonardo div, .raphael div,
 .zazu div, .ryu div, .punisher div, .garfield div, .thor div,
 .potLeaf div, .autobot div, .rick div, .goku div, .deadpool div,
-.grumpyCat div, .adventureTime div, .george div {
+.grumpyCat div, .adventureTime div, .george div, .smurf div,
+.creeper div, .freddy div {
     width: 4px;
     height: 4px;
 }
 
-.g div {
+.f div {
     height: 10px;
     width: 10px;
 }
@@ -145,11 +154,37 @@ body {
 
 
 
+.freddyBrown {
+    background-color: var(--freddyBrown);
+}
 
+.freddyOrange {
+    background-color: var(--freddyOrange);
+}
 
+.freddySkin {
+    background-color: var(--freddySkin);
+}
 
+.freddyRed {
+    background-color: var(--freddyRed);
+}
 
+.freddyGreen {
+    background-color: var(--freddyGreen);
+}
 
+.freddyGrey {
+    background-color: var(--freddyGrey);
+}
+
+.creeper {
+    background-color: var(--creeper);
+}
+
+.smurf {
+    background-color: var(--smurf);
+}
 
 .georgeEyes {
     background-color: var(--georgeEyes);
