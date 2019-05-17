@@ -1,6 +1,14 @@
 
 
 :root {
+    --deadpoolRed: #F9080F;
+    --deadpoolDarkGrey: #48474C;
+    --deadpoolLightGrey: #6F6A6E;
+    --gokuOrange: #E9680C;
+    --gokuYellow: #FFD430;
+    --gokuRed: #B6080B;
+    --gokuSkin: #F9C585;
+    --gokuBlue: #033E90;
     --rickHair: #9EC1DA;
     --rickShirt: #92C2CA;
     --rickPants: #7B6438;
@@ -106,12 +114,12 @@ body {
 .marioGhost div, .waldo div, .triforce div, .banana div,
 .donatello div, .michelangelo div, .leonardo div, .raphael div,
 .zazu div, .ryu div, .punisher div, .garfield div, .thor div,
-.potLeaf div, .autobot div, .rick div {
+.potLeaf div, .autobot div, .rick div, .goku div, .deadpool div {
     width: 4px;
     height: 4px;
 }
 
-.r div {
+.d div {
     height: 15px;
     width: 15px;
 }
@@ -125,6 +133,43 @@ body {
 
 
 
+
+
+
+
+
+
+.deadpoolRed {
+    background-color: var(--deadpoolRed);
+}
+
+.deadpoolLightGrey {
+    background-color: var(--deadpoolLightGrey);
+}
+
+.deadpoolDarkGrey {
+    background-color: var(--deadpoolDarkGrey);
+}
+
+.gokuOrange {
+    background-color: var(--gokuOrange);
+}
+
+.gokuRed {
+    background-color: var(--gokuRed);
+}
+
+.gokuYellow {
+    background-color: var(--gokuYellow);
+}
+
+.gokuBlue {
+    background-color: var(--gokuBlue);
+}
+
+.gokuSkin {
+    background-color: var(--gokuSkin);
+}
 
 .rickHair {
     background-color: var(--rickHair);
