@@ -1,6 +1,17 @@
 
 
 :root {
+    --rickHair: #9EC1DA;
+    --rickShirt: #92C2CA;
+    --rickPants: #7B6438;
+    --rickSkin: #E8D5C6;
+    --rickShoes: #333333;
+    --autobotLightGrey: #AEAEAE;
+    --autobotDarkGrey: #636361;
+    --potLeafGreen1: #6BE06A;
+    --potLeafGreen2: #2CA178;
+    --potLeafGreen3: #24BD6E;
+    --potLeafGreen4: #21B173;
     --thorSkin: #FACD8E;
     --thorHammerBrown: #945620;
     --thorHammerGrey: #808080;
@@ -94,14 +105,69 @@ body {
 .pacmanGhost div, .pluto div, .batman div, .nesController div, 
 .marioGhost div, .waldo div, .triforce div, .banana div,
 .donatello div, .michelangelo div, .leonardo div, .raphael div,
-.zazu div, .ryu div, .punisher div, .garfield div, .thor div {
+.zazu div, .ryu div, .punisher div, .garfield div, .thor div,
+.potLeaf div, .autobot div, .rick div {
     width: 4px;
     height: 4px;
 }
 
-.t div {
+.r div {
     height: 15px;
     width: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.rickHair {
+    background-color: var(--rickHair);
+}
+
+.rickSkin {
+    background-color: var(--rickSkin);
+}
+
+.rickShirt {
+    background-color: var(--rickShirt);
+}
+
+.rickPants {
+    background-color: var(--rickPants);
+}
+
+.rickShoes {
+    background-color: var(--rickShoes);
+}
+
+.autobotDarkGrey {
+    background-color: var(--autobotDarkGrey);
+}
+
+.autobotLightGrey {
+    background-color: var(--autobotLightGrey);
+}
+
+.potLeafGreen1 {
+    background-color: var(--potLeafGreen1);
+}
+
+.potLeafGreen2 {
+    background-color: var(--potLeafGreen2);
+}
+
+.potLeafGreen3 {
+    background-color: var(--potLeafGreen3);
+}
+
+.potLeafGreen4 {
+    background-color: var(--potLeafGreen4);
 }
 
 .thorSkin {
