@@ -1,6 +1,24 @@
 
 
 :root {
+    --rollingStones: #F60000;
+    --powerpuffYellow: #FDED62;
+    --powerpuffBlue: #3DB0E8;
+    --powerpuffSkin: #FCDCC9;
+    --mikeGreen1: #98BB05;
+    --mikeGreen2: #009D00;
+    --mikeOrange: #FB991A;
+    --pikachu: #FCDD36;
+    --pikachuRed: #E11009;
+    --megamanDarkBlue: #507CD3;
+    --megamanLightBlue: #71BADC;
+    --megamanShadow: #051B77;
+    --megamanSkin: #F0D0BB;
+    --wallELightGrey: #B6B4B9;
+    --wallEDarkGrey: #606060;
+    --wallEOrange: #F8972C;
+    --wallEGreen: #059702;
+    --wallEGreen2: #94BD07;
     --qbertOrange: #FA961F;
     --qbertRed: #FD040B;
     --qbertEyes: #8FC1EA;
@@ -148,7 +166,7 @@ body {
 }
 
 .wrapper div {
-    /*border: 1px solid #000;*/
+    border: 1px solid #000;*/
     width: 4px;
     height: 4px;
 }
@@ -162,13 +180,14 @@ body {
 .potLeaf div, .autobot div, .rick div, .goku div, .deadpool div,
 .grumpyCat div, .adventureTime div, .george div, .smurf div,
 .creeper div, .freddy div, .bambi div, .flounder div, .steve div,
-.qbert div
- {
+.qbert div, .wallE div, .megaman div, .pikachu div, .mike div,
+.powerpuff div, .rollingStones div
+{
     width: 4px;
     height: 4px;
 }
 
-.q div {
+.pikachu div {
     height: 10px;
     width: 10px;
 }
@@ -177,6 +196,78 @@ body {
 
 
 
+
+.rollingStones {
+    background-color: var(--rollingStones);
+}
+
+.powerpuffBlue {
+    background-color: var(--powerpuffBlue);
+}
+
+.powerpuffSkin {
+    background-color: var(--powerpuffSkin);
+}
+
+.powerpuffYellow {
+    background-color: var(--powerpuffYellow);
+}
+
+.mikeGreen1 {
+    background-color: var(--mikeGreen1);
+}
+
+.mikeGreen2 {
+    background-color: var(--mikeGreen2);
+}
+
+.mikeOrange {
+    background-color: var(--mikeOrange);
+}
+
+.pikachu {
+    background-color: var(--pikachu);
+}
+
+.pikachuRed {
+    background-color: var(--pikachuRed);
+}
+
+.megamanDarkBlue {
+    background-color: var(--megamanDarkBlue);
+}
+
+.megamanLightBlue {
+    background-color: var(--megamanLightBlue);
+}
+
+.megamanShadow {
+    background-color: var(--megamanShadow);
+}
+
+.megamanSkin {
+    background-color: var(--megamanSkin);
+}
+
+.wallELightGrey {
+    background-color: var(--wallELightGrey);
+}
+
+.wallEDarkGrey {
+    background-color: var(--wallEDarkGrey);
+}
+
+.wallEOrange {
+    background-color: var(--wallEOrange);
+}
+
+.wallEGreen {
+    background-color: var(--wallEGreen);
+}
+
+.wallEGreen2 {
+    background-color: var(--wallEGreen2);
+}
 
 .qbertOrange {
     background-color: var(--qbertOrange);
