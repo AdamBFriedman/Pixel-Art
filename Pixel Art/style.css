@@ -1,6 +1,11 @@
 
 
 :root {
+    --togepi: #D6B87A;
+    --togepiRed: #F80201;
+    --togepiBlue: #8ABBE3;
+    --pringlesBrown: #883001;
+    --pringlesRed: #FF0501;
     --captainAmericaBlue: #0458A7;
     --captainAmericaRed: #FE0100;
     --captainAmericaSkin: #D9BC83;
@@ -170,7 +175,7 @@ body {
 }
 
 .wrapper div {
-  /*  border: 1px solid #000;*/
+    /*border: 1px solid #000;*/
     width: 4px;
     height: 4px;
 }
@@ -185,13 +190,14 @@ body {
 .grumpyCat div, .adventureTime div, .george div, .smurf div,
 .creeper div, .freddy div, .bambi div, .flounder div, .steve div,
 .qbert div, .wallE div, .megaman div, .pikachu div, .ucf div, 
-.mike div, .powerpuff div, .rollingStones div, .captainAmerica div
+.mike div, .powerpuff div, .rollingStones div, .captainAmerica div,
+.pringles div, .togepi div
 {
     width: 4px;
     height: 4px;
 }
 
-.c div {
+.t div {
     height: 10px;
     width: 10px;
 }
@@ -200,6 +206,28 @@ body {
 
 
 
+
+
+
+.togepiRed {
+    background-color: var(--togepiRed);
+}
+
+.togepi {
+    background-color: var(--togepi);
+}
+
+.togepiBlue {
+    background-color: var(--togepiBlue);
+}
+
+.pringlesRed {
+    background-color: var(--pringlesRed);
+}
+
+.pringlesBrown {
+    background-color: var(--pringlesBrown);
+}
 
 .captainAmericaRed {
     background-color: var(--captainAmericaRed);
