@@ -1,6 +1,17 @@
 
 
 :root {
+    --rainbowRed: #FE0008;
+    --rainbowOrange: #FC8903;
+    --rainbowYellow: #FFFC09;
+    --rainbowGreen: #81FF00;
+    --rainbowBlue: #00F8FF;
+    --rainbowIndigo: #C339FF;
+    --rainbowViolet: #FF48C0;
+    --rainbowViolet2: #F61FB0;
+    --koopaGreen: #009403;
+    --koopaOrange: #F99713;
+    --rollingStones: #FB0100;
     --togepi: #D6B87A;
     --togepiRed: #F80201;
     --togepiBlue: #8ABBE3;
@@ -191,13 +202,14 @@ body {
 .creeper div, .freddy div, .bambi div, .flounder div, .steve div,
 .qbert div, .wallE div, .megaman div, .pikachu div, .ucf div, 
 .mike div, .powerpuff div, .rollingStones div, .captainAmerica div,
-.pringles div, .togepi div
+.pringles div, .togepi div, .rollingStones div, .powerpuff div,
+.koopa div, .rainbowStar div
 {
     width: 4px;
     height: 4px;
 }
 
-.t div {
+.r div {
     height: 10px;
     width: 10px;
 }
@@ -209,12 +221,60 @@ body {
 
 
 
-.togepiRed {
-    background-color: var(--togepiRed);
+
+
+
+
+.rainbowRed {
+    background-color: var(--rainbowRed);
+}
+
+.rainbowOrange {
+    background-color: var(--rainbowOrange);
+}
+
+.rainbowYellow {
+    background-color: var(--rainbowYellow);
+}
+
+.rainbowGreen {
+    background-color: var(--rainbowGreen);
+}
+
+.rainbowBlue {
+    background-color: var(--rainbowBlue);
+}
+
+.rainbowIndigo {
+    background-color: var(--rainbowIndigo);
+}
+
+.rainbowViolet {
+    background-color: var(--rainbowViolet);
+}
+
+.rainbowViolet2 {
+    background-color: var(--rainbowViolet2);
+}
+
+.koopaGreen {
+    background-color: var(--koopaGreen);
+}
+
+.koopaOrange {
+    background-color: var(--koopaOrange);
+}
+
+.rollingStones {
+    background-color: var(--rollingStones);
 }
 
 .togepi {
     background-color: var(--togepi);
+}
+
+.togepiRed {
+    background-color: var(--togepiRed);
 }
 
 .togepiBlue {
