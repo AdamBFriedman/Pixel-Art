@@ -1,6 +1,35 @@
 
 
 :root {
+    --squidward: #BCE1CF;
+    --squidwardEyes: #8ACBAB;
+    --squidwardMouth: #FC7D73;
+    --monopolyHat: #2C2C2C;
+    --monopolyBowtie: #F21224;
+    --monopolySkin: #F9C1AA;
+    --monopolyRibbon: #8D57A9;
+    --donaldHat: #0553A0;
+    --donaldEyes: #7BB2D4;
+    --donaldBeak: #E9F116;
+    --donaldMouth: #F79926;
+    --donaldTongue: #EEC6D5;
+    --brianGriffinRed: #E24444;
+    --brianGriffinGreen: #57EC2B;
+    --brianGriffinGreen2: #ADF289;
+    --brianGriffinYellow: #E9E948;
+    --ernieSkin: #FE9122;
+    --ernieEyes: #88BEF1;
+    --ernieRed: #EF0102;
+    --ernieYellow: #EFF416;
+    --ernieBlue: #0657AB;
+    --ernieBlue2: #8ABFE7;
+    --ernieMouth: #F3C4D8;
+    --eminemHair: #EAF628;
+    --eminemSkin: #FED39C;
+    --eminemJacket: #A2AD9D;
+    --eminemPants: #7D7D7C;
+    --eminemWatch: #DCBC81;
+    --eminemRed: #F41300;
     --rainbowRed: #FE0008;
     --rainbowOrange: #FC8903;
     --rainbowYellow: #FFFC09;
@@ -203,13 +232,14 @@ body {
 .qbert div, .wallE div, .megaman div, .pikachu div, .ucf div, 
 .mike div, .powerpuff div, .rollingStones div, .captainAmerica div,
 .pringles div, .togepi div, .rollingStones div, .powerpuff div,
-.koopa div, .rainbowStar div
+.koopa div, .rainbowStar div, .eminem div, .ernie div, .brianGriffin div,
+.donaldDuck div, .monopoly div, .squidward div
 {
     width: 4px;
     height: 4px;
 }
 
-.r div {
+.s div {
     height: 10px;
     width: 10px;
 }
@@ -224,6 +254,126 @@ body {
 
 
 
+
+
+
+
+
+.squidward {
+    background-color: var(--squidward);
+}
+
+.squidwardEyes {
+    background-color: var(--squidwardEyes);
+}
+
+.squidwardMouth {
+    background-color: var(--squidwardMouth);
+}
+
+.monopolyHat {
+    background-color: var(--monopolyHat);
+}
+
+.monopolySkin {
+    background-color: var(--monopolySkin);
+}
+
+.monopolyRibbon {
+    background-color: var(--monopolyRibbon);
+}
+
+.monopolyBowtie {
+    background-color: var(--monopolyBowtie);
+}
+
+.donaldHat {
+    background-color: var(--donaldHat);
+}
+
+.donaldEyes {
+    background-color: var(--donaldEyes);
+}
+
+.donaldBeak {
+    background-color: var(--donaldBeak);
+}
+
+.donaldMouth {
+    background-color: var(--donaldMouth);
+}
+
+.donaldTongue {
+    background-color: var(--donaldTongue);
+}
+
+.brianGriffinRed {
+    background-color: var(--brianGriffinRed);
+}
+
+.brianGriffinGreen {
+    background-color: var(--brianGriffinGreen);
+}
+
+.brianGriffinGreen2 {
+    background-color: var(--brianGriffinGreen2);
+}
+
+.brianGriffinYellow {
+    background-color: var(--brianGriffinYellow);
+}
+
+.ernieSkin {
+    background-color: var(--ernieSkin);
+}
+
+.ernieEyes {
+    background-color: var(--ernieEyes);
+}
+
+.ernieRed {
+    background-color: var(--ernieRed);
+}
+
+.ernieYellow {
+    background-color: var(--ernieYellow);
+}
+
+.ernieBlue {
+    background-color: var(--ernieBlue);
+}
+
+.ernieBlue2 {
+    background-color: var(--ernieBlue2);
+}
+
+.ernieMouth {
+    background-color: var(--ernieMouth);
+}
+
+.eminemHair {
+    background-color: var(--eminemHair);
+}
+
+.eminemSkin {
+    background-color: var(--eminemSkin);
+}
+
+.eminemJacket {
+    background-color: var(--eminemJacket);
+}
+
+.eminemRed {
+    background-color: var(--eminemRed);
+}
+
+.eminemPants {
+    background-color: var(--eminemPants);
+}
+
+.eminemWatch {
+    background-color: var(--eminemWatch);
+}
 
 .rainbowRed {
     background-color: var(--rainbowRed);
