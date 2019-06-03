@@ -1,6 +1,19 @@
 
-
 :root {
+    --simbaMane: #C24035;
+    --simbaFur: #F0DB30;  
+    --simbaEyes: #FAFAAE;
+    --simbaEar: #954935;
+    --simbaNose: #FE7152;
+    --simbaNose2: #673016;
+    --simbaMouth: #FEFD9C;
+    --nalaFur: #EAE9A8;
+    --nalaFur2: #CC9F5C;
+    --nalaEars: #7B4D2D;
+    --nalaEyes: #E3E2A6;
+    --nalaEyes2: #B9BD9B;
+    --nalaNose: #C9A5A8;
+    --nalaMouth: #747A6E;
     --squidward: #BCE1CF;
     --squidwardEyes: #8ACBAB;
     --squidwardMouth: #FC7D73;
@@ -233,13 +246,13 @@ body {
 .mike div, .powerpuff div, .rollingStones div, .captainAmerica div,
 .pringles div, .togepi div, .rollingStones div, .powerpuff div,
 .koopa div, .rainbowStar div, .eminem div, .ernie div, .brianGriffin div,
-.donaldDuck div, .monopoly div, .squidward div
+.donaldDuck div, .monopoly div, .squidward div, .lionKing div
 {
     width: 4px;
     height: 4px;
 }
 
-.s div {
+.l div {
     height: 10px;
     width: 10px;
 }
@@ -253,11 +266,61 @@ body {
 
 
 
+.simbaMane {
+    background-color: var(--simbaMane);
+}
 
+.simbaFur {
+    background-color: var(--simbaFur);
+}
 
+.simbaEyes {
+    background-color: var(--simbaEyes);
+}
 
+.simbaEar {
+    background-color: var(--simbaEar);
+}
 
+.simbaNose {
+    background-color: var(--simbaNose);
+}
 
+.simbaNose2 {
+    background-color: var(--simbaNose2);
+}
+
+.simbaMouth {
+    background-color: var(--simbaMouth);
+}
+
+.nalaFur {
+    background-color: var(--nalaFur);
+}
+
+.nalaFur2 {
+    background-color: var(--nalaFur2);
+}
+
+.nalaEars {
+    background-color: var(--nalaEars);
+}
+
+.nalaEyes {
+    background-color: var(--nalaEyes);
+}
+
+.nalaEyes2 {
+    background-color: var(--nalaEyes2);
+}
+
+.nalaNose {
+    background-color: var(--nalaNose);
+}
+
+.nalaMouth {
+    background-color: var(--nalaMouth);
+}
 
 .squidward {
     background-color: var(--squidward);
