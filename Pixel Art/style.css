@@ -1,5 +1,7 @@
 
 :root {
+    --mjSkin: #B27620;
+    --mjJacket: #A72533;
     --simbaMane: #C24035;
     --simbaFur: #F0DB30;  
     --simbaEyes: #FAFAAE;
@@ -246,13 +248,14 @@ body {
 .mike div, .powerpuff div, .rollingStones div, .captainAmerica div,
 .pringles div, .togepi div, .rollingStones div, .powerpuff div,
 .koopa div, .rainbowStar div, .eminem div, .ernie div, .brianGriffin div,
-.donaldDuck div, .monopoly div, .squidward div, .lionKing div
+.donaldDuck div, .monopoly div, .squidward div, .lionKing div,
+.mj div
 {
     width: 4px;
     height: 4px;
 }
 
-.l div {
+.mdddd div {
     height: 10px;
     width: 10px;
 }
@@ -264,7 +267,13 @@ body {
 
 
 
+.mjJacket {
+    background-color: var(--mjJacket);
+}
 
+.mjSkin {
+    background-color: var(--mjSkin);
+}
 
 .simbaMane {
     background-color: var(--simbaMane);
