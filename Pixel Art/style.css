@@ -1,5 +1,13 @@
 
 :root {
+    --flashRed: #DB0002;
+    --flashYellow: #EFF71E;
+    --flashSkin: #E1B579;
+    --warriorsBlue: #006BB6;
+    --warriorsGold: #FDB927;
+    --klaySkin: #DCBF97;
+    --klayShoes: #715F66;
+    --basketball: #E8723C;
     --mjSkin: #B27620;
     --mjJacket: #A72533;
     --simbaMane: #C24035;
@@ -249,13 +257,13 @@ body {
 .pringles div, .togepi div, .rollingStones div, .powerpuff div,
 .koopa div, .rainbowStar div, .eminem div, .ernie div, .brianGriffin div,
 .donaldDuck div, .monopoly div, .squidward div, .lionKing div,
-.mj div
+.mj div, .klay div, .flash div
 {
     width: 4px;
     height: 4px;
 }
 
-.mdddd div {
+.f div {
     height: 10px;
     width: 10px;
 }
@@ -266,6 +274,39 @@ body {
 
 
 
+
+
+.flashRed {
+    background-color: var(--flashRed);
+}
+
+.flashYellow {
+    background-color: var(--flashYellow);
+}
+
+.flashSkin {
+    background-color: var(--flashSkin);
+}
+
+.warriorsBlue {
+    background-color: var(--warriorsBlue);
+}
+
+.warriorsGold {
+    background-color: var(--warriorsGold);
+}
+
+.klaySkin {
+    background-color: var(--klaySkin);
+}
+
+.klayShoes {
+    background-color: var(--klayShoes);
+}
+
+.basketball {
+    background-color: var(--basketball);
+}
 
 .mjJacket {
     background-color: var(--mjJacket);
