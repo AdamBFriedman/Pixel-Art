@@ -1,5 +1,21 @@
 
 :root {
+    --bert: #F4BC43;
+    --bertShadow: #B6651E;
+    --bertNose: #F98138;
+    --ludwigVonHair: #184694;
+    --ludwigVonFace: #ECC397;
+    --ludwigVonBody: #E3B126;
+    --ludwigVonWand: #b7b7af;
+    --ludwigVonWandTip: #EF0906;
+    --ludwigVonEyes: #25983B;
+    --r2d2Blue: #4F648C;
+    --r2d2: #A4A4A3;
+    --r2d2Red: #BB2E50;
+    --juggernautSuit: #B20602;
+    --juggernautSkin: #F3D9C8;
+    --juggernautGrey: #484E45;
+    --juggernautGrey2: #A7ABAC;
     --flashRed: #DB0002;
     --flashYellow: #EFF71E;
     --flashSkin: #E1B579;
@@ -257,13 +273,14 @@ body {
 .pringles div, .togepi div, .rollingStones div, .powerpuff div,
 .koopa div, .rainbowStar div, .eminem div, .ernie div, .brianGriffin div,
 .donaldDuck div, .monopoly div, .squidward div, .lionKing div,
-.mj div, .klay div, .flash div
+.mj div, .klay div, .flash div, .juggernaut div, .r2d2 div,
+.ludwigVon div, .bert div
 {
     width: 4px;
     height: 4px;
 }
 
-.f div {
+.b div {
     height: 10px;
     width: 10px;
 }
@@ -275,6 +292,73 @@ body {
 
 
 
+
+
+
+
+.bert {
+    background-color: var(--bert);
+}
+
+.bertShadow {
+    background-color: var(--bertShadow);
+}
+
+.bertNose {
+    background-color: var(--bertNose);
+}
+
+.ludwigVonHair {
+    background-color: var(--ludwigVonHair);
+}
+
+.ludwigVonFace {
+    background-color: var(--ludwigVonFace);
+}
+
+.ludwigVonBody {
+    background-color: var(--ludwigVonBody);
+}
+
+.ludwigVonWand {
+    background-color: var(--ludwigVonWand);
+}
+
+.ludwigVonWandTip {
+    background-color: var(--ludwigVonWandTip);
+}
+
+.ludwigVonEyes {
+    background-color: var(--ludwigVonEyes);
+}
+
+.r2d2 {
+    background-color: var(--r2d2);
+}
+
+.r2d2Red {
+    background-color: var(--r2d2Red);
+}
+
+.r2d2Blue {
+    background-color: var(--r2d2Blue);
+}
+
+.juggernautSuit {
+    background-color: var(--juggernautSuit);
+}
+
+.juggernautSkin {
+    background-color: var(--juggernautSkin);
+}
+
+.juggernautGrey {
+    background-color: var(--juggernautGrey);
+}
+
+.juggernautGrey2 {
+    background-color: var(--juggernautGrey2);
+}
 
 .flashRed {
     background-color: var(--flashRed);
