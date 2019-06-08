@@ -1,5 +1,10 @@
 
 :root {
+    --raccoonMario: #A65B19;
+    --doug: #FED1B2;
+    --cupheadRed: #EE0000;
+    --cupheadBlue: #1CB8E9;
+    --cupheadMouth: #F10000;
     --bert: #F4BC43;
     --bertShadow: #B6651E;
     --bertNose: #F98138;
@@ -226,10 +231,10 @@
     --flowerRed: #E13530;
     --flowerDarkGreen: #49B450;
     --flowerLightGreen: #B5E34D;
-    --marioBeige: #FFD987;
-    --brown: #6A0400;
-    --blue: #0001FC;
-    --yellow: #FEFA5C;
+    --marioSkin: #FFD987;
+    --marioHair: #6A0400;
+    --marioBlue: #0001FC;
+    --marioYellow: #FEFA5C;
     --white: #fff;
     --black: #000;
   }
@@ -274,13 +279,13 @@ body {
 .koopa div, .rainbowStar div, .eminem div, .ernie div, .brianGriffin div,
 .donaldDuck div, .monopoly div, .squidward div, .lionKing div,
 .mj div, .klay div, .flash div, .juggernaut div, .r2d2 div,
-.ludwigVon div, .bert div
+.ludwigVon div, .bert div, .cuphead div, .doug div, .raccoonMario div
 {
     width: 4px;
     height: 4px;
 }
 
-.b div {
+.r div {
     height: 10px;
     width: 10px;
 }
@@ -295,6 +300,28 @@ body {
 
 
 
+
+
+
+.raccoonMario {
+    background-color: var(--raccoonMario);
+}
+
+.doug {
+    background-color: var(--doug);
+}
+
+.cupheadRed {
+    background-color: var(--cupheadRed);
+}
+
+.cupheadBlue {
+    background-color: var(--cupheadBlue);
+}
+
+.cupheadMouth {
+    background-color: var(--cupheadMouth);
+}
 
 .bert {
     background-color: var(--bert);
@@ -1210,18 +1237,18 @@ body {
     background-color: var(--ghostGrey);
 }
 
-.blue {
-    background-color: var(--blue);
+.marioBlue {
+    background-color: var(--marioBlue);
 }
 
-.marioBeige {
-    background-color: var(--marioBeige);
+.marioSkin {
+    background-color: var(--marioSkin);
 }
 
-.brown {
-    background-color: var(--brown);
+.marioHair {
+    background-color: var(--marioHair);
 }
 
-.yellow {
-    background-color: var(--yellow);
+.marioYellow {
+    background-color: var(--marioYellow);
 }
