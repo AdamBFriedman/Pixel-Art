@@ -1,5 +1,16 @@
 
 :root {
+    --ironManRed: #FD0005;
+    --ironManYellow: #F2F50D;
+    --ironManBlue: #8ABEE5;
+    --ironManGrey: #B3B7B7;
+    --genie: #5590DF;
+    --genieDark: #093A6B;
+    --genieBrown: #965A22;
+    --genieGold: #D48F39;
+    --genieOrange:#F3912C;
+    --genieYellow: #F1EB61;
+    --frogMario: #2FB442;
     --raccoonMario: #A65B19;
     --doug: #FED1B2;
     --cupheadRed: #EE0000;
@@ -279,13 +290,14 @@ body {
 .koopa div, .rainbowStar div, .eminem div, .ernie div, .brianGriffin div,
 .donaldDuck div, .monopoly div, .squidward div, .lionKing div,
 .mj div, .klay div, .flash div, .juggernaut div, .r2d2 div,
-.ludwigVon div, .bert div, .cuphead div, .doug div, .raccoonMario div
+.ludwigVon div, .bert div, .cuphead div, .doug div, .raccoonMario div,
+.frogMario div, .genie div, .ironMan div
 {
     width: 4px;
     height: 4px;
 }
 
-.r div {
+.ironMan div {
     height: 10px;
     width: 10px;
 }
@@ -302,6 +314,52 @@ body {
 
 
 
+
+
+
+.ironManRed {
+    background-color: var(--ironManRed);
+}
+
+.ironManYellow {
+    background-color: var(--ironManYellow);
+}
+
+.ironManBlue {
+    background-color: var(--ironManBlue);
+}
+
+.ironManGrey {
+    background-color: var(--ironManGrey);
+}
+
+.genie {
+    background-color: var(--genie);
+}
+
+.genieDark {
+    background-color: var(--genieDark);
+}
+
+.genieGold {
+    background-color: var(--genieGold);
+}
+
+.genieBrown {
+    background-color: var(--genieBrown);
+}
+
+.genieOrange {
+    background-color: var(--genieOrange);
+}
+
+.genieYellow {
+    background-color: var(--genieYellow);
+}
+
+.frogMario {
+    background-color: var(--frogMario);
+}
 
 .raccoonMario {
     background-color: var(--raccoonMario);
