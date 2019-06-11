@@ -1,5 +1,7 @@
 
 :root {
+    --blooperGrey: #B5B5B5;
+    --blooperEyes: #636363;
     --ironManRed: #FD0005;
     --ironManYellow: #F2F50D;
     --ironManBlue: #8ABEE5;
@@ -291,13 +293,13 @@ body {
 .donaldDuck div, .monopoly div, .squidward div, .lionKing div,
 .mj div, .klay div, .flash div, .juggernaut div, .r2d2 div,
 .ludwigVon div, .bert div, .cuphead div, .doug div, .raccoonMario div,
-.frogMario div, .genie div, .ironMan div
+.frogMario div, .genie div, .ironMan div, .blooperMario div
 {
     width: 4px;
     height: 4px;
 }
 
-.i div {
+.b div {
     height: 10px;
     width: 10px;
 }
@@ -315,7 +317,13 @@ body {
 
 
 
+.blooperGrey {
+    background-color: var(--blooperGrey);
+}
 
+.blooperEyes {
+    background-color: var(--blooperEyes);
+}
 
 .ironManRed {
     background-color: var(--ironManRed);
