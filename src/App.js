@@ -1,5 +1,6 @@
 import "./App.css";
 import Tinkerbell from "./components/Disney/Tinkerbell";
+import DocAndMarty from "./components/DocAndMarty";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         </head>
 
         <body>
+          <DocAndMarty />
           <Tinkerbell />
           <div className="mb">
             <div className="dragonite wrapper">

@@ -1,4 +1,13 @@
 :root {
+  --docShoes: #572c01;
+  --docPants: #5f605e;
+  --docShirt: #83bbe4;
+  --docSkin: #dbbc79;
+  --martyHair: #8d5339;
+  --martyShirt: #bad8fe;
+  --martySkin: #ffdfbf;
+  --martyDenim: #3059a6;
+  --martyVest: #d3433a;
   --tinkMouth: #90451b;
   --tinkBrown: #b77d60;
   --tinkWings: #abbbba;
@@ -368,7 +377,8 @@ body {
 .blooperMario div,
 .marioWedding div,
 .dragonite div,
-.tink div {
+.tink div,
+.docAndMarty div {
   width: 4px;
   height: 4px;
 }
@@ -376,6 +386,42 @@ body {
 .d div {
   height: 10px;
   width: 10px;
+}
+
+.docPants {
+  background-color: var(--docPants);
+}
+
+.docShoes {
+  background-color: var(--docShoes);
+}
+
+.docShirt {
+  background-color: var(--docShirt);
+}
+
+.docSkin {
+  background-color: var(--docSkin);
+}
+
+.martyHair {
+  background-color: var(--martyHair);
+}
+
+.martyShirt {
+  background-color: var(--martyShirt);
+}
+
+.martySkin {
+  background-color: var(--martySkin);
+}
+
+.martyDenim {
+  background-color: var(--martyDenim);
+}
+
+.martyVest {
+  background-color: var(--martyVest);
 }
 
 .tinkMouth {
