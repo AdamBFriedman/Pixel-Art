@@ -1,4 +1,5 @@
 import "./App.css";
+import SheHulk from "./components/Disney/SheHulk";
 import Tinkerbell from "./components/Disney/Tinkerbell";
 import DocAndMarty from "./components/DocAndMarty";
 
@@ -18,6 +19,7 @@ function App() {
         </head>
 
         <body>
+          <SheHulk />
           <DocAndMarty />
           <Tinkerbell />
           <div className="mb">

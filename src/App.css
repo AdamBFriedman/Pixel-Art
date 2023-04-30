@@ -1,4 +1,7 @@
 :root {
+  --sheHulkShirt: #892be2;
+  --sheHulkSkin: #008001;
+  --sheHulkHair: #002c06;
   --docShoes: #572c01;
   --docPants: #5f605e;
   --docShirt: #83bbe4;
@@ -295,9 +298,9 @@ body {
 }
 
 .wrapper div {
-  /* border: 0.51px solid black; */
-  /* width: 4px;
-    height: 4px; */
+  /* border: 0.51px solid black;
+  width: 4px;
+  height: 4px; */
 }
 
 .mario div,
@@ -378,7 +381,8 @@ body {
 .marioWedding div,
 .dragonite div,
 .tink div,
-.docAndMarty div {
+.docAndMarty div,
+.sheHulk div {
   width: 4px;
   height: 4px;
 }
@@ -386,6 +390,18 @@ body {
 .d div {
   height: 10px;
   width: 10px;
+}
+
+.sheHulkHair {
+  background-color: var(--sheHulkHair);
+}
+
+.sheHulkShirt {
+  background-color: var(--sheHulkShirt);
+}
+
+.sheHulkSkin {
+  background-color: var(--sheHulkSkin);
 }
 
 .docPants {
